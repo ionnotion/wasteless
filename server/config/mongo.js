@@ -1,5 +1,7 @@
 const { MongoClient, ServerApiVersion } = require("mongodb");
-const uri = process.env.MONGO_URL || "http://localhost:4000";
+const uri =
+	process.env.MONGO_URL ||
+	"mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false";
 
 let options;
 
