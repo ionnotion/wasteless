@@ -14,5 +14,8 @@
     "graphql": "^16.6.0",
     "ioredis": "^5.2.4",
     "mongodb": "4.12"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
   }
 }
